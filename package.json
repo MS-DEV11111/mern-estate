@@ -1,0 +1,22 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "daemon": "^1.1.0",
+    "expess": "^0.0.1-security",
+    "express": "^4.18.2",
+    "init": "^0.1.2",
+    "nodemon": "^3.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon api/index.js",
+  
+    "start": "node api/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
