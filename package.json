@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "daemon": "^1.1.0",
     "dotenv": "^16.3.1",
     "expess": "^0.0.1-security",
